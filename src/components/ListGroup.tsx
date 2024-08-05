@@ -7,7 +7,7 @@ interface Props {
 
 import { useState } from "react";
 
-function ListGroup({ items, heading, onSelectItem}: Props) {
+function ListGroup({ items, heading, onSelectItem }: Props) {
   let [selectedIndex, setSelectedIndex] = useState(0);
   return (
     <>
